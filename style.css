@@ -1,0 +1,18 @@
+
+body{font-family:Arial,Helvetica,sans-serif;background:#f4f6f8}
+
+.container{max-width:700px;margin:40px auto;padding:20px;background:#fff;border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,0.06)}
+
+.chat{min-height:300px;border:1px solid #eee;padding:10px;overflow:auto}
+
+.msg{margin:8px 0;padding:8px;border-radius:6px}
+
+.msg.user{background:#e6f7ff;text-align:left}
+
+.msg.ai{background:#f0f0f0;text-align:left}
+
+form{display:flex;gap:8px;margin-top:10px}
+
+input{flex:1;padding:8px;border:1px solid #ddd;border-radius:6px}
+
+button{padding:8px 12px;border:none;background:#007bff;color:#fff;border-radius:6px}
